@@ -4,7 +4,15 @@ public class Terminserie {
     private Termin [] termine ;
 
 
-    public void getName(String name){
+    public void init(nr anzahl, java.time.LocalDateTime start,java.time.LocalDateTime ende, int interval){
+
+
+
+
+    }
+
+
+    public void setName(String name){
         this.name= name;
     }
     public String getName() {
@@ -15,6 +23,7 @@ public class Terminserie {
         return termine[index];
     }
 
-
-
+    public int getAnzahl(){
+        return 0;
+    }
 }

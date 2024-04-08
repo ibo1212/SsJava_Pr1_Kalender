@@ -1,27 +1,30 @@
 public class Termin {
     private  String name ;
-    java.time.LocalDateTime start;
-    java.time.LocalDateTime ende;
+   private java.time.LocalDateTime start;
+   private java.time.LocalDateTime ende;
 
 
 
-    public void init(String name ,java.time.LocalDateTime start ,java.time.LocalDateTime ende){
-
+    public void init(String name ,java.time.LocalDateTime start ,java.time.LocalDateTime end){
+     this.name = name;
+     this.start=start;
+     this.ende=end;
 
     }
- public int  getDauer(){
 
-        return  getDauer();
- }
 
  public String getName(){
-        return name;
+        return this.name;
  }
 public void setName(String name){
         this.name=name;
 }
 
+    public int  getDauer(){
 
+
+        return  ende.minusNanos(start.);
+    }
 
 
 }

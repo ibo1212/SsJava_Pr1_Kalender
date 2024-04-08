@@ -4,7 +4,7 @@ public class Terminserie {
     private Termin [] termine ;
 
 
-    public void init(nr anzahl, java.time.LocalDateTime start,java.time.LocalDateTime ende, int interval){
+    public void init(int  anzahl, java.time.LocalDateTime start,java.time.LocalDateTime ende, int interval){
 
 
 

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Terminserie {
 
     private String name = "";//  so String name ; ist bedeutet  null Instanz . man darf nicht auf Null-Instanz zugreifen
@@ -5,7 +7,7 @@ public class Terminserie {
 
 
     public void init(int anzahl, java.time.LocalDateTime start, java.time.LocalDateTime ende, int interval) {
-        termine = new Termin[anzahl];
+        this.termine = new Termin[anzahl];
 
         for (int i = 0; i < anzahl; i++) {
 
@@ -13,12 +15,16 @@ public class Terminserie {
             termine[i].init(name, start.plusDays(interval * i), ende.plusDays(interval * i));
 
 
+
         }
 
 
     }
 
+
+
     public String getName() {
+
         return name;
     }
 

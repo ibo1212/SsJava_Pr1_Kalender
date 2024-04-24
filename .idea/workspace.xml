@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b04c2d26-e2df-42dd-8c09-603123352c4b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KalenderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KalenderApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Termin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Termin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Terminserie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Terminserie.java" afterDir="false" />
     </list>
@@ -24,6 +26,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dbaa0b93-e7b2-4cff-a324-5d11c3909a26" />
+        <option name="url" value="https://github.com/ibo1212/SsJava_Pr1_Kalender.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -33,19 +48,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "copyright",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +73,11 @@
       <workItem from="1712410285966" duration="17829000" />
       <workItem from="1712574875963" duration="1948000" />
       <workItem from="1712607699415" duration="1437000" />
-      <workItem from="1712643834377" duration="6190000" />
+      <workItem from="1712643834377" duration="6900000" />
+      <workItem from="1712732737522" duration="2859000" />
+      <workItem from="1713013160015" duration="2748000" />
+      <workItem from="1713360371310" duration="13482000" />
+      <workItem from="1713964679894" duration="3292000" />
     </task>
     <task id="LOCAL-00001" summary="class">
       <created>1712493959835</created>
@@ -80,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712569339161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Terminserie">
+      <created>1712650500526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712650500526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Terminserieeee">
+      <created>1712650535363</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712650535363</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +123,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="class" />
     <MESSAGE value="to implement" />
-    <option name="LAST_COMMIT_MESSAGE" value="to implement" />
+    <MESSAGE value="Terminserie" />
+    <MESSAGE value="Terminserieeee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminserieeee" />
   </component>
 </project>

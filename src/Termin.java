@@ -23,12 +23,21 @@ public void setName(String name){
         this.name=name;
 }
 
-    public long   getDauer(){
+    public int    getDauer(){
 
-        Duration duration =  Duration.between(start,ende);
-        return duration.toMinutes();
+        java.time.Duration duration= java.time.Duration.between(start,ende);
+
+
+       // Duration duration =   Duration.between(start,ende);
+        return (int) duration.toMinutes();
 
     }
 
 
-}
+        public String getInfo() {
+        return "Der appointment " + this.name + " begins am " + this.start + " Ends at " + this.ende + ". Duration: " + getDauer();
+    }
+    }
+
+
+
